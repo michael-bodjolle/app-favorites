@@ -1,0 +1,159 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Germania One', cursive;
+
+}
+
+body
+{
+    background-color:#ead7ac;
+
+}
+body, html
+{
+    display: flex;
+    flex-direction: column;
+    min-height:100vh ;
+
+}
+header
+{
+    position: sticky;
+    top: 0;
+    z-index:1000000000;
+   
+}
+
+li, a
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    
+     
+
+}
+
+a{
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
+    color: goldenrod;
+    transition: color 1s, letter-spacing 1s;
+    
+    
+   
+
+}
+a:hover
+{
+    color: #59aec9;
+    letter-spacing: 2px;
+}
+header nav li:first-child
+{
+    font-weight: bold;
+}
+
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #503d2e;
+    box-shadow: black 2px;
+    line-height: 40px;
+    text-shadow: 1px 1px 1px  black; 
+   
+    
+   
+}
+
+.hs
+{   
+   
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 50px 50px 50px 50px;
+   max-width:  500px;
+   margin: auto;
+   
+  
+  
+}
+
+main
+{
+    margin-top: 10px ;
+}
+.txths
+{    
+    margin: 30px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px  black ;
+    text-align: center;
+    font-family: 'Germania One', cursive;
+    
+}
+
+.cards
+{
+    text-align: center;
+
+}
+.cards img
+{
+   
+    max-width: 200px;
+}
+button 
+{   
+    
+    border-radius: 3px 3px 3px 3px;
+    background-color:#FFF8ED;
+    margin: 20px;
+    padding: 0 5px;
+    border:none ;
+    width: 70px;
+    height: 40px;
+    color: cornsilk;
+    box-shadow: 1px 1PX 1px black;
+}
+.dl
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+h2
+{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+.capt
+{
+    margin: 10px;
+    text-align: center;
+}
+  
+
+footer
+{
+   
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#180d07;
+    text-decoration: none;   
+    padding: 20px; 
+    margin-top: auto;
+}
+ 

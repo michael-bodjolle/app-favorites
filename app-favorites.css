@@ -1,0 +1,112 @@
+*{  margin: 0;
+    padding: 0;
+    font-family: sans-serif	;
+    
+}
+body
+{
+    background: linear-gradient(100deg, white,rgb(238, 156, 5));
+   
+}
+header
+{
+    position: sticky;
+    top: 0;
+    z-index:1000000000;
+   
+}
+
+li, a
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    
+     
+
+}
+
+a{
+    display: flex;
+    font-size: 17px;
+    color: black;
+    justify-content: center;
+   
+
+}
+
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: floralwhite;
+    box-shadow: black 2px;
+    line-height: 40px;
+    width: 100%;
+   
+}
+
+
+.ins
+{
+ 
+    display: flex;
+    justify-content: center;
+}
+
+.app1
+{   
+    
+    box-shadow:2px 2px 2px  ;
+}
+.textun
+{   text-align: center;
+    font-size: 150%;
+ 
+}
+
+.hs
+{
+    display: flex;
+    justify-content: center ;
+}
+.app2
+{   
+    
+    box-shadow:2px 2px 2px  ;
+}
+
+.textdeux
+{
+    text-align: center;
+    font-size: 150%;
+}
+
+
+.soun
+{
+    display: flex;
+    justify-content: center;
+}
+.app3
+{   
+    
+  padding: 10px;
+}
+
+.texttrois
+{
+   
+    text-align: center;
+    text-decoration: 30%;
+    font-size: 150%;
+}
+footer
+{
+   
+    background-color: floralwhite;
+    text-align: center;  
+    padding: 20px; 
+}

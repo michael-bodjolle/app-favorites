@@ -1,0 +1,123 @@
+
+*
+{
+ margin: 0;
+ padding: 0;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body
+{
+    
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header
+{
+    position: sticky;
+    top: 0;
+    z-index:1000000000;
+   
+}
+
+li, a
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    
+     
+
+}
+
+a{
+    display: flex;
+    font-size: 17px;
+    color: black;
+    justify-content: center;
+   
+
+}
+
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    box-shadow: black 2px;
+    line-height: 40px;
+   
+}
+
+.logo
+{   
+    text-align: center;
+    
+    
+}
+.fulllogo
+{
+   
+   
+  
+}
+.in
+{
+    text-align: center;
+ 
+  
+}
+
+.col
+{
+    color: #231f20;
+    font-style: italic;
+    justify-content: space-around;
+    text-align: center;
+   
+    
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.premier img
+{
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+.premier
+{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.deuxieme img
+{
+    margin:auto ;
+}
+.deuxieme
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
+footer
+{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    text-decoration: none;   
+    padding: 20px; 
+}
